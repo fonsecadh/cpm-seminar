@@ -8,7 +8,7 @@ email:
 - UO270835@uniovi.es
 - UO258318@uniovi.es
 - UO270927@uniovi.es
-lang: "es-ES"
+lang: "en"
 ---
 # Design process - GUI
 
@@ -32,7 +32,7 @@ GameWindow (View Figure 1) is the main window and therefore  central part of the
 
 SignInWindow (View Figure 2) is a dialog with a form that manages the credentials of the user. The user must have already signed up before being able to log in using this view. If the user has not signed up yet, he can do so by clicking on the *Sign Up* button located in the *New User* section.
 
-![SingInWindow](multimedia/signwindow.png){height=350px}
+![SingInWindow](multimedia/signinwindow.png){height=350px}
 
 ## SignUpWindow
 
