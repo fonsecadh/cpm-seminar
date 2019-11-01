@@ -69,7 +69,7 @@ ChipsWindow (View Figure 7) is a dialog with all chip types and a correspondent 
 
 ![ChipsWindow](multimedia/chipswindow.png){height=350px}
 
-## BalanceToBankWindow
+## TransferWindow
 
 TransferWindow (View Figure 8) is a dialog that lets the user transfer their *in-game* balance back to their bank account.
 
@@ -100,11 +100,30 @@ BarWindow (View Figure 11) is a dialog modeling the bar of the casino. It has a 
 
 
 
-# Flow Layout
+# Flow Diagram
+
+Next a flow diagram is presented (View Figure 12). This will help to visualize how the application works and the relations between the different graphical interfaces of the application.
+
+![Flow diagram](multimedia/flow-diagram.png){height=500px}
 
 
 
 # Changes applied after user tests
 
+Lastly, the applied changes to the application after the results obtained from  user testing are listed:
 
+- **Main Window**
+    - Implemented a *Log Out* button that will show the current balance before closing the application.
+    - Now we show the user's current balance.
+    - Now we show a timer and a progress bar informing the user of the remaining time until next round.
+    - Now we show a text area informing of the results of the previous round.
+- **Bank Window**
+    - Now the bank window is accessed from the *GameWindow* instead of appearing after the user logged in.
+    - Now we have buttons for transfering in-game balance back to the user's bank account and for transforming chips into in-game balance.
+    - Now when the *BankWindow* is closed we return to the *GameWindow*.
+- **Chips Window**
+    - The spinners for controling the number of chips will be disabled whenever the user does not have enough balance to afford said chip type.
+- **Bet Window**
+    - The configuration of each individual bet will be displayed in a dynamic panel that changes depending on the type of that specific bet.
+    - Changed *Bet Window* components to reflect the previous change.
 
