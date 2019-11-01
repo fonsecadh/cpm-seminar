@@ -12,17 +12,17 @@ lang: "en"
 ---
 # Design process - GUI
 
-We were required to design a desktop emulating a casino's game roulette. After reading the product requirements we have created the following *graphical user interface*, consisting on the following views:
+We were required to design a desktop application emulating a casino's game roulette. After reading the product requirements we have created the following *graphical user interface*, consisting on the following views:
 
 ## GameWindow
 
 GameWindow (View Figure 1) is the main window and therefore  central part of the application. It has the following modules:
  
-- **Spinning wheel**: contains a timer specifying the time until the roulette is spinned, an image representing the wheel and a text area showing the results of the previous round.
+- **Spinning wheel**: contains a timer and a progress bar specifying the time until the roulette is spinned, an image representing the wheel and a text area showing the results of the previous round.
 - **Bets**: represented by a table showing the user's current bets for the current round, as well as a *Bet* button for placing them.
 - **Chips**: list of all chip types followed by the number of chips of that type that the user has. Again, there is a *Chips* button for recharging them.
 - **Balance**: user's current balance in euros.
-- **Bar**: beberage icon alongside a *Bar* label that opens the bar view.
+- **Bar**: beberage icon alongside a *Bar* button that opens the bar view.
 - **Log out**: button for logging out of the application.
 - **Menu**: menu for quick access of every other module in the application.
 
